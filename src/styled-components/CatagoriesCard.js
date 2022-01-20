@@ -7,10 +7,11 @@ justify-content: flex-start;
 align-items: center;
 max-height: 200px;
 max-width: 200px;
-margin: 0 30px;
+margin: 0 35px;
+margin-top: 10px;
 img{
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     object-fit: cover;
 }
 h3{
