@@ -13,11 +13,14 @@
     "styled-components": "^5.3.3",
     "web-vitals": "^2.1.3"
   },
+  "homepage":"https://nancy07raj.github.io/flipkart-clone",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
