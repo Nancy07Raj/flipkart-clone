@@ -63,6 +63,7 @@ const MobileCard = ()=>{
         alignItems: 'center',
         backgroundColor: 'white',
         margin:'10px 50px',
+        border: '0.5px  solid #C0D8C0',
     };
 
     return(<div style={cardDiv}>

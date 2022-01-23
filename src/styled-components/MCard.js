@@ -1,13 +1,13 @@
 import styled from 'styled-components'
 
-
 const MCard = styled.div`
 display: flex;
 justify-content: flex-start;
 align-items: flex-start;
 margin: 20px 10px;
-border: 0.5px  solid #C0D8C0;
 padding: 10px;
+border-bottom: 0.5px solid #C0D8C0;
+width: 98%;
 img{
     height: 300px;
     width: auto;
@@ -53,7 +53,7 @@ img{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-left: 100px;
+    margin-left: 200px;
     div{
     display: flex;
     justify-content: flex-start;
