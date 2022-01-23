@@ -1,0 +1,157 @@
+@mixin flex-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.mobiles {
+  @include flex-row();
+  background-color: white;
+  margin: 20px;
+}
+.cart {
+  @include flex-row();
+  flex-direction: column;
+  .FullMobile {
+    @include flex-row();
+    align-items: flex-start;
+    border: 0.5px solid #c0d8c0;
+    margin: 0;
+    .mobileImg {
+      height: 300px;
+      width: 220px;
+      padding: 30px 80px;
+      height: 100%;
+    }
+    span {
+      padding: 10px;
+      margin: 20px 30px;
+      border-radius: 30px;
+      font-size: 12px;
+      border: 0.5px solid #c0d8c0;
+      color: #d3e4cd;
+    }
+  }
+  .btn {
+    @include flex-row();
+    align-items: flex-start;
+    width: 100%;
+    button {
+      width: 235px;
+      height: 50px;
+      color: white;
+      border: 0;
+      border-radius: 4px;
+      margin: 0 2px;
+      font-size: 15px;
+      i {
+        margin: 0 10px;
+        font-size: 15px;
+      }
+    }
+    .add {
+      background-color: orange;
+    }
+    .buy {
+      background-color: #ff7f3f;
+    }
+  }
+}
+.mobileView {
+  @include flex-row();
+  flex-direction: column;
+  width: 100px;
+  img {
+    height: 50px;
+    width: 30px;
+    padding: 10px;
+    border: 0.5px solid #c0d8c0;
+    &:hover {
+      border: 2px solid rgb(88, 88, 216);
+    }
+  }
+}
+.details {
+  @include flex-row();
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 20px 10px;
+  h2 {
+    margin: 0;
+  }
+  .rating {
+    @include flex-row();
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 20px;
+
+    h5 {
+      margin: 0;
+      font-weight: 400;
+      margin-right: 5px;
+    }
+    .icon {
+      @include flex-row();
+      background-color: rgb(51, 172, 51);
+      padding: 5px;
+      color: white;
+      border-radius: 4px;
+    }
+    .assurance {
+      @include flex-row();
+      align-items: center;
+      h4 {
+        margin: 0 10px;
+        font-size: 12px;
+        color: rgb(110, 101, 101);
+      }
+      img {
+        height: 20px;
+        width: 80px;
+      }
+    }
+  }
+}
+.price {
+  @include flex-row();
+  align-items: center;
+  h1 {
+    margin: 0 10px;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  span {
+    text-decoration: line-through;
+    color: rgb(156, 148, 148);
+    font-size: 16spx;
+  }
+  h5 {
+    margin: 0 10px;
+    color: rgb(45, 168, 45);
+  }
+}
+.offer {
+  @include flex-row();
+  flex-direction: column;
+  h3 {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  ul {
+    list-style: none;
+  }
+  li {
+    line-height: 30px;
+    font-size: 13px;
+    i {
+      color: rgb(112, 206, 112);
+    }
+    b {
+      font-size: 13px;
+    }
+    span {
+      color: rgb(42, 192, 42);
+      margin: 0 5px;
+      font-weight: 600;
+    }
+  }
+}

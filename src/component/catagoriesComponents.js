@@ -1,4 +1,4 @@
-import Mobiles from "./Mobiles";
-import MobileCard from './MobileCard'
+import MobileView from './catagories/MobileView';
+import MobileCard from './catagories/MobileCard'
 
-export {Mobiles, MobileCard}
+export {MobileView, MobileCard}
