@@ -9,6 +9,8 @@
   background-color: #1c6dd0;
   height: 60px;
   width: 100vw;
+  position: fixed;
+  top: 0;
   .flipkart {
     @include flex-row();
     flex-direction: column;

@@ -1,4 +1,5 @@
 import CatagoriesCard from './CatagoriesCard'
+import MCard from './MCard';
 
 
-export default CatagoriesCard
+export  {CatagoriesCard, MCard}

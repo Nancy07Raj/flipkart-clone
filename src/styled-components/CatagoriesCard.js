@@ -9,6 +9,13 @@ max-height: 200px;
 max-width: 200px;
 margin: 0 35px;
 margin-top: 10px;
+a{
+    text-decoration: none;
+    color: black;
+    &:hover{
+        color: blue;
+    }
+}
 img{
     height: 70px;
     width: 70px;

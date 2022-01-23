@@ -1,6 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../sass/catagories.scss'
-import CatagoriesCard from '../styled-components/styles'
+import {CatagoriesCard} from '../styled-components/styles'
 
 const Catagories = ()=>{
     const data= [
@@ -42,13 +43,12 @@ const Catagories = ()=>{
     },
 ]
     return(<div className='catagoriesContainer'>
-    {data.map(card=>(
+    {data.map((card,index)=>(
         <CatagoriesCard>
-            <img src={card.img} alt='catagories' />
-            <h3>{card.name}</h3>
+            <img src={card.img} alt='catagories' key={index} />
+            <Link to={'/'+ card.name} ><h3>{card.name}</h3></Link>
         </CatagoriesCard>
     ))}
-
     </div>)
 }
 
