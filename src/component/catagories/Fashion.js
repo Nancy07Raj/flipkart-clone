@@ -9,7 +9,8 @@ function Fashion(){
             cat: 'Women Sarees',
             ass:'https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png',
             price: '₹ 1,299',
-            strike: '₹ 1,500'
+            strike: '₹ 1,500',
+            off: '30%'
         },
         {
             img:'https://rukminim1.flixcart.com/image/495/594/klfhk7k0/ethnic-set/p/s/y/m-kpldyt-10000-ishin-original-imagyjw66stps4kc.jpeg?q=50',
@@ -17,7 +18,8 @@ function Fashion(){
             cat: 'Women Kurti Set',
             ass:'https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png',
             price: '₹ 999',
-            strike: '₹ 1,300'
+            strike: '₹ 1,300',
+            off: '20%'
         },
         {
             img:'https://rukminim1.flixcart.com/image/495/594/kkec4280/ethnic-set/z/m/0/m-kplpram-9092-ishin-original-imafzr76szpfyhgk.jpeg?q=50',
@@ -25,7 +27,8 @@ function Fashion(){
             cat: 'Women Plazo Set',
             ass:'https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png',
             price: '₹ 899',
-            strike: '₹ 1,000'
+            strike: '₹ 1,000',
+            off: '30%'
         },
         {
             img:'https://rukminim1.flixcart.com/image/495/594/krjjde80/dress/r/g/i/s-dhtpknmqr-12049-ishin-original-imag5bfhfshbv4dw.jpeg?q=50',
@@ -33,7 +36,8 @@ function Fashion(){
             cat: 'Women Goven',
             ass:'https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png',
             price: '₹ 799',
-            strike: '₹ 900'
+            strike: '₹ 900',
+            off: '40%'
         },
         {
             img:'https://rukminim1.flixcart.com/image/495/594/kg40k280-0/kurta/q/k/i/l-kbeds-4011-ishin-original-imafwf6gat52hrge.jpeg?q=50',
@@ -41,7 +45,8 @@ function Fashion(){
             cat: 'Women Anarkali set',
             ass:'https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png',
             price: '₹ 1,299',
-            strike: '₹ 1,400'
+            strike: '₹ 1,400',
+            off: '30%'
         },
         {
             img:'https://rukminim1.flixcart.com/image/495/594/keuagsw0-0/kurta/g/6/y/xxl-kurpram-3007-ishin-original-imafvfqzyhdyszpd.jpeg?q=50',
@@ -49,7 +54,26 @@ function Fashion(){
             cat: 'Women Kurti and Pant',
             ass:'https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png',
             price: '₹ 999',
-            strike: '₹ 1,100'
+            strike: '₹ 1,100',
+            off: '50%'
+        },
+        {
+            img:'https://rukminim1.flixcart.com/image/495/594/kb1470w0/ethnic-set/c/e/j/m-isnnw0141kp-ishin-original-imafsgy9dtyvjgzp.jpeg?q=50',
+            name: 'ishin',
+            cat: 'Women Kurti and Pant',
+            ass:'https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png',
+            price: '₹ 999',
+            strike: '₹ 1,100',
+            off: '30%'
+        },
+        {
+            img:'https://rukminim1.flixcart.com/image/495/594/k6xxua80/kurta/6/h/x/l-kurpram-re-219-ishin-original-imafpaeqsn9spkzn.jpeg?q=50',
+            name: 'ishin',
+            cat: 'Women Kurti and Pant',
+            ass:'https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png',
+            price: '₹ 999',
+            strike: '₹ 1,100',
+            off: '30%'
         },
     ];
     const styleDiv ={
@@ -70,7 +94,7 @@ function Fashion(){
         <p>{data.cat}</p>
         <img src={data.ass} alt='assurance' />
         </div>
-        <p className='price'>{data.price}<span>{data.strike}</span> Off</p>
+        <p className='price'>{data.price}<span>{data.strike}</span>{data.off} Off</p>
     </FashionCard>
     ))}
     </div>)

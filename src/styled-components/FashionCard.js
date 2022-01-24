@@ -30,7 +30,7 @@ padding: 5px;
 img{
     height: 30px;
     width: 50px;
-    margin-left: 50px;
+    margin-left: 80px;
 }
 }
 h5{
@@ -39,6 +39,7 @@ h5{
 }
 .price{
     margin-left: 10px;
+    font-weight: 600;
     span{
         margin: 0 10px;
     }
