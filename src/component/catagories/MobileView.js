@@ -48,6 +48,22 @@ const MobileView = ()=>{
     <li><i class="fa-li fas fa-tag"></i><b>Bank Offer</b> Get extra ₹500 off (price inclusive of discount)<span>T&C</span></li>
     </ul>
     </div>
+    <div className='buyOption'>
+    <div className='withoutExchange'>
+    <input type='radio' checked />
+    <h5>Buy without Exchange </h5>
+    <span>₹ 7,499</span>
+    </div>
+    <div className='withExchange'>
+    <input type='radio' />
+    <div>
+    <h5>Buy without Exchange </h5>
+    <h6><i class="fas fa-check"></i>Include special discount of ₹ 750 </h6>
+    </div>
+    <span>up to ₹ 6,400 Off</span>
+    </div>
+
+    </div>
 
     </div>
     </div>)
