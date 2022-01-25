@@ -22,7 +22,7 @@ const Catagories = ()=>{
         img: 'https://rukminim1.flixcart.com/flap/128/128/image/9468f7c638007682.png?q=100',
     },
     {
-        name: 'Home',
+        name: 'House',
         img: 'https://rukminim1.flixcart.com/flap/128/128/image/0a4e27792f699b67.png?q=100'
     },
     {

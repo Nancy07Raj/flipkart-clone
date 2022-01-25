@@ -39,18 +39,6 @@ function Deal(){
             price:'From 199 + Extra 10% Off',
             des:'Selling Fast Grab Now!'
         },
-        // {
-        //     img:'',
-        //     product:'',
-        //     price:'',
-        //     des:''
-        // },
-        // {
-        //     img:'',
-        //     product:'',
-        //     price:'',
-        //     des:''
-        // },
     ];
     const DealDiv = {
         display: 'flex',

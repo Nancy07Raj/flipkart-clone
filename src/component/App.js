@@ -2,8 +2,8 @@ import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Catagories from './catagories';
 import {MobileCard, MobileView, Fashion} from './catagoriesComponents';
-import Deal from './HomeCard/Deal.js'
 import Header from './Header'
+import Home from './HomeCard/Home.js'
 
 function App() {
   return (<div className='AppContainer'>
@@ -14,10 +14,10 @@ function App() {
       <Route path='/Mobiles' component={MobileCard} />
       <Route path='/MobileView' component={MobileView}/>
       <Route path='/Fashion' component={Fashion} />
-      <Route path='/Home' component={Deal} />
+      <Route path='/Home' component={Home} />
     </Switch>
     </Router>
-    <Deal />
+    {/* <Home /> */}
   </div>)
 }
 
