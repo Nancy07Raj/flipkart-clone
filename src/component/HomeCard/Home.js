@@ -35,9 +35,69 @@ function Home(){
             <p>Did you know debit card holders account for 79.38 crore in the country, while there are only 3.14 crore credit card holders? After enabling EMI on Credit Cards, in another attempt to make online shopping accessible to everyone, Flipkart introduces EMI on Debit Cards, empowering you to shop confidently with us without having to worry about pauses in monthly cash flow. At present, we have partnered with Axis Bank, HDFC Bank, State Bank of India and ICICI Bank for this facility. More power to all our shoppers! Terms and conditions apply.</p>
             <h2>Mobile Exchange Offers</h2>
             <p>Get an instant discount on the phone that you have been eyeing on. Exchange your old mobile for a new one after the Flipkart experts calculate the value of your old phone, provided it is in a working condition without damage to the screen. If a phone is applicable for an exchange offer, you will see the 'Buy with Exchange' option on the product description of the phone. So, be smart, always opt for an exchange wherever possible. Terms and conditions apply.</p>
+            <h2>Baby and Kids</h2>
+            <p>Your kids deserve only the best. From bodysuits, booties, diapers to strollers, if you're an expecting mother or a new mother, you will find everything you need to set sail on a smooth parenting journey with the help of our baby care collection. When it comes to safety, hygiene and comfort, you can rely on us without a second thought. Huggies, Pampers, MamyPoko, and Johnson & Johnson: we host only the most-trusted names in the business for your baby.</p>
+            <h2>Books, Sports and Games</h2>
+            <p>Work hard and no play? We don't believe in that. Get access to best-selling fiction and non-fiction books by your favourite authors, thrilling English and Indian blockbusters, most-wanted gaming consoles, and a tempting range of fitness and sports gadgets and equipment bound to inspire you to get moving.</p>
         </div>
         <div className='footer'>
-
+        <div className='links'>
+        <div>
+            <h4>HOME</h4>
+            <a>Contact Us</a>
+            <a>About Us</a>
+            <a>Careers</a>
+            <a>Flipkart Stories</a>
+            <a>Press</a>
+            <a>Flipkart Wholesale</a>
+            <a>Corporate Information</a>
+        </div>
+        <div>
+            <h4>HELP</h4>
+            <a>Payments</a>
+            <a>Shipping</a>
+            <a>Cancellation & Returns</a>
+            <a>FAQ</a>
+            <a>Report Infringement</a>
+        </div>
+        <div>
+            <h4>POLICY</h4>
+            <a>Return Policy</a>
+            <a>Term Of Use</a>
+            <a>Security</a>
+            <a>Privacy</a>
+            <a>Sitemap</a>
+            <a>EPR Compliances</a>
+        </div>
+        <div>
+            <h4>SOCIAL</h4>
+            <a>Facebook</a>
+            <a>Twitter</a>
+            <a>Youtube</a>
+            <a>FAQ</a>
+            <a>Report Infringement</a>
+        </div>
+        <div className='mailus'>
+            <h4>Mail Us</h4>
+            <p>Flipkart Internet Private Limited,</p>
+            <p>Buildings Alyssa, Begonia &</p>
+            <p>Clove Embassy Tech Village,</p>
+            <p>Outer Ring Road, Devarabeesanahalli Village,</p>
+            <p>Bengaluru, 560103,</p>
+            <p>Karnataka, India</p>
+        </div>
+        <div>
+            <h4>Registered Office Address</h4>
+            <p>Flipkart Internet Private Limited,</p>
+            <p>Buildings Alyssa, Begonia &</p>
+            <p>Clove Embassy Tech Village,</p>
+            <p>Outer Ring Road, Devarabeesanahalli Village,</p>
+            <p>Bengaluru, 560103,</p>
+            <p>Karnataka, India</p>
+            <p>CIN : U51109KA2012PTC066107</p>
+            <p>Telephone: 1800 202 9898</p>
+        </div>
+        </div>
         </div>
     </>)
 }

@@ -42,12 +42,25 @@ function Deal(){
     ];
     const DealDiv = {
         display: 'flex',
+        flexDirection:'column',
+        justifyContent: 'flexStart',
+        alignItems: 'flexStart',
+    };
+    const card= {
+        display: 'flex',
         justifyContent: 'flexStart',
         alignItems: 'center',
         margin: '20px 0',
         backgroundColor: 'white'
     }
+    const styleH2 ={
+        margin:'10px',
+        borderBottom:'1px solid #C0D8C0',
+        padding:'10px'
+    }
     return(<div style={DealDiv}>
+    <h2 style={styleH2}>Deal Of the Day</h2>
+    <div style={card}>
     {data.map(dt=>(
         <HomeCard>
         <img src={dt.img} alt={dt.name} />
@@ -56,6 +69,7 @@ function Deal(){
         <p className='des'>{dt.des}</p>
         </HomeCard>
     ))}
+    </div>
     </div>)
 }
 
