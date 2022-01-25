@@ -5,6 +5,10 @@ import {CatagoriesCard} from '../styled-components/styles'
 
 const Catagories = ()=>{
     const data= [
+        {
+            name: 'Home',
+            img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XrW-ko66LTMXm4u2G2eBP4AKg5VftvuSng&usqp=CAU',
+        },
     {
         name: 'Mobiles',
         img:'https://rukminim1.flixcart.com/flap/128/128/image/e2b2795ad9e97a57.png?q=100',

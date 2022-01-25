@@ -7,7 +7,7 @@ justify-content: flex-start;
 align-items: center;
 max-height: 200px;
 max-width: 200px;
-margin: 0 35px;
+margin: 0 28px;
 margin-top: 10px;
 a{
     text-decoration: none;

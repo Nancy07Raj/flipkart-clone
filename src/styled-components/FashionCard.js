@@ -8,6 +8,7 @@ align-items: flex-start;
 width: 250px;
 margin: 20px;
 padding: 5px;
+border: 1px solid white;
 &:hover{
     border: 1px solid #C0D8C0;
 }
