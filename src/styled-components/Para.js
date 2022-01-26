@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 const Para = styled.p`
 margin: ${(props)=> props.margin? props.margin : '0'};
-font-size: ${(props)=> props.font? props.font:'12px'};
+font-size: ${(props)=> props.font? props.font:'inherit'};
 white-space: ${(props)=> props.whiteSpace? props.whiteSpace: 'initial'};
 text-overflow: ${(props)=> props.overflow? props.overflow:'initial'};
 color: ${(props)=> props.color? props.color:'inherit'};

@@ -7,7 +7,7 @@ const Image = styled.img.attrs(props=>({
 `
 height: ${(props)=> props.height? props.height: '50px'};
 width: ${(props)=> props.width? props.width: 'initial'};
-object-fit: ${(props)=>props.fit? props.fit:'none'};
+object-fit: ${(props)=>props.fit? props.fit:'contain'};
 margin: ${(props)=> props.margin? props.margin:'0'};
 &:hover{
     ${(props)=> props.hover? props.hover : 'none'};

@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import { Div, Image} from '../../styled-components/styles'
+import { Div, Image, Anchor, Ul, Li, Para} from '../../styled-components/styles'
 
 const MobileCard = ()=>{
     const data =[
@@ -57,52 +57,40 @@ const MobileCard = ()=>{
 
         }
     ];
-    const cardDiv={
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'flexStart',
-        alignItems: 'center',
-        backgroundColor: 'white',
-        margin:'10px 50px',
-      };
-      const li ={
-          textDecoration : 'none',
-          color: 'black'
-      }
 
-    return(<div style={cardDiv}>
+    return(<Div direction='column' aItems='center' margin='10px 50px'>
     {data.map(md =>(
-    <Link style={li} to='/MobileView'>
+    <Anchor textDecoration='none' color='black'><Link to='/MobileView'>
     <Div margin='20px 10px' padding='10px' bBottom='0.5px solid #C0D8C0' width='98%'>
         <Image src={md.img} alt={md.name} height='330px' margin='10px 0 10px 50px' />
-        {/* <img src={md.img} alt={md.name}/> */}
         <Div direction='column' margin='0 0 0 100px'>
         <h3>{md.name}</h3>
-        <div className='rating'>
-        <h5>{md.rating}</h5>
-        <span><i class="fas fa-star"></i></span>
-        </div>
-        <ul style={{listStyleType:'disc'}}>
-            <li>{md.spec[0]}</li>
-            <li>{md.spec[1]}</li>
-            <li>{md.spec[2]}</li>
-            <li>{md.spec[3]}</li>
-            <li>{md.spec[4]}</li>
-            <li>{md.spec[5]}</li>
-        </ul>
+        <Div aItems='center' bgColor='green' color='white' margin='0 10px' padding='2px' bRadius='4px' >
+        <Para as='h5' font='15px' weight='200'>{md.rating}</Para>
+        <Para as='span' font='12px'><i class="fas fa-star"></i></Para>
         </Div>
-        <div className='price'>
-        <div>
-        <h2>{md.price}</h2>
-        <img alt='assurance' src='https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png' />
-        </div>
-        <h6>Free delivery</h6>
-        <h5>Upto <b>₹{md.discount}</b> Off on Exchange</h5>
-        </div>
+        <Ul lstyle='disc' font='15px'>
+            <Li LH='30px'>{md.spec[0]}</Li>
+            <Li LH='30px'>{md.spec[1]}</Li>
+            <Li LH='30px'>{md.spec[2]}</Li>
+            <Li LH='30px'>{md.spec[3]}</Li>
+            <Li LH='30px'>{md.spec[4]}</Li>
+            <Li LH='30px'>{md.spec[5]}</Li>
+        </Ul>
+        </Div>
+        <Div direction='column' margin='0 0 0 200px'>
+        <Div aItems='center'>
+        <Para as='h2' font='25px' >₹{md.price}</Para>
+        <Image alt='assurance' height='20px' width='80px' margin='0 20px' src='https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png' />
+        </Div>
+        <Para as='h6' font='12px' margin='5px 0' weight='500'>Free delivery</Para>
+        <Para as='h5' margin='5px 0' font='12px'>Upto ₹{md.discount} Off on Exchange</Para>
+        </Div>
     </Div>
     </Link>
+    </Anchor>
     ))}
-    </div>)
+    </Div>)
 }
 
 export default MobileCard
