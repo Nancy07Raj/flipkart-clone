@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import {MCard} from '../../styled-components/styles'
+import { Div, Image} from '../../styled-components/styles'
 
 const MobileCard = ()=>{
     const data =[
@@ -73,9 +73,10 @@ const MobileCard = ()=>{
     return(<div style={cardDiv}>
     {data.map(md =>(
     <Link style={li} to='/MobileView'>
-    <MCard>
-        <img src={md.img} alt={md.name}/>
-        <div className='spec'>
+    <Div margin='20px 10px' padding='10px' bBottom='0.5px solid #C0D8C0' width='98%'>
+        <Image src={md.img} alt={md.name} height='330px' margin='10px 0 10px 50px' />
+        {/* <img src={md.img} alt={md.name}/> */}
+        <Div direction='column' margin='0 0 0 100px'>
         <h3>{md.name}</h3>
         <div className='rating'>
         <h5>{md.rating}</h5>
@@ -89,7 +90,7 @@ const MobileCard = ()=>{
             <li>{md.spec[4]}</li>
             <li>{md.spec[5]}</li>
         </ul>
-        </div>
+        </Div>
         <div className='price'>
         <div>
         <h2>{md.price}</h2>
@@ -98,7 +99,7 @@ const MobileCard = ()=>{
         <h6>Free delivery</h6>
         <h5>Upto <b>₹{md.discount}</b> Off on Exchange</h5>
         </div>
-    </MCard>
+    </Div>
     </Link>
     ))}
     </div>)

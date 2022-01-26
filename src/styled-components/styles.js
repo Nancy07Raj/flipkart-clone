@@ -1,7 +1,9 @@
-import CatagoriesCard from './CatagoriesCard'
 import MCard from './MCard';
 import FashionCard from './FashionCard';
-import HomeCard from './HomeCard';
+import Para from './Para'
+import Image  from './Image';
+import Anchor from './Anchor'
+import Div from './Div';
 
 
-export  {CatagoriesCard, MCard, FashionCard, HomeCard}
+export  { Anchor, MCard, FashionCard, Para, Image, Div}

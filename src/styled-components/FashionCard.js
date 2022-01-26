@@ -45,7 +45,5 @@ h5{
         margin: 0 10px;
     }
 }
-
-
 `
 export default FashionCard

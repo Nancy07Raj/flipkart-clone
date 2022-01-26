@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../sass/catagories.scss'
-import {CatagoriesCard} from '../styled-components/styles'
+import {Image, Para} from '../styled-components/styles'
 
 const Catagories = ()=>{
     const data= [
@@ -48,10 +48,13 @@ const Catagories = ()=>{
 ]
     return(<div className='catagoriesContainer'>
     {data.map((card,index)=>(
-        <CatagoriesCard>
-            <img src={card.img} alt='catagories' key={index} />
-            <Link to={'/'+ card.name} ><h3>{card.name}</h3></Link>
-        </CatagoriesCard>
+        <Link to={'/'+ card.name} >
+        <div className = 'catagoriesCard'>
+            <Image height='70px' width='70px' fit='cover' src={card.img} alt={card.name} key={index} />
+            {/* <img src={card.img} alt='catagories' key={index} /> */}
+            <Para as='h3' margin='5px 0' font='15px' weight='600'>{card.name}</Para>
+        </div>
+        </Link>
     ))}
     </div>)
 }

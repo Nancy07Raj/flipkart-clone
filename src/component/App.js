@@ -14,6 +14,7 @@ function App() {
       <Route path='/Mobiles' component={MobileCard} />
       <Route path='/MobileView' component={MobileView}/>
       <Route path='/Fashion' component={Fashion} />
+      <Route path='/' component={Home} />
       <Route path='/Home' component={Home} />
     </Switch>
     </Router>

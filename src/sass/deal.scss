@@ -1,0 +1,28 @@
+.DealDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px 0;
+  background-color: white;
+}
+.styleH2 {
+  margin: 10px;
+  border-bottom: 1px solid #c0d8c0;
+  padding: 10px;
+}
+.HomeCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: inherit;
+  margin: 0 10px;
+  width: 200px;
+  height: 280px;
+}

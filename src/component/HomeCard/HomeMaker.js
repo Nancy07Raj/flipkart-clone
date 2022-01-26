@@ -1,5 +1,6 @@
 import React from 'react'
-import {HomeCard} from '../../styled-components/styles'
+import {Image,Para} from '../../styled-components/styles'
+import '../../sass/deal.scss'
 
 function HomeMaker(){
     const data = [
@@ -40,34 +41,16 @@ function HomeMaker(){
             des:'By Flipkart Perfect Home!'
         },
     ];
-    const DealDiv = {
-        display: 'flex',
-        flexDirection:'column',
-        justifyContent: 'flexStart',
-        alignItems: 'flexStart',
-    };
-    const card= {
-        display: 'flex',
-        justifyContent: 'flexStart',
-        alignItems: 'center',
-        margin: '20px 0',
-        backgroundColor: 'white'
-    }
-    const styleH2 ={
-        margin:'10px',
-        borderBottom:'1px solid #C0D8C0',
-        padding:'10px'
-    }
-    return(<div style={DealDiv}>
-    <h2 style={styleH2}>HomeMaker</h2>
-    <div style={card}>
+    return(<div className='DealDiv'>
+    <Para as='h2' width='98%' font='25px' margin='10px' bBottom='1px solid #c0d8c0' padding='10px'>Home Maker</Para>
+    <div className='card'>
     {data.map(dt=>(
-        <HomeCard>
-        <img src={dt.img} alt={dt.name} />
-        <p className='product'>{dt.product}</p>
-        <p className='price'>{dt.price}</p>
-        <p className='des'>{dt.des}</p>
-        </HomeCard>
+        <div className='HomeCard'>
+        <Image margin='20px 0' hover='transform: scale(1.1)' fit='contain' height='120px' width='150px' src={dt.img} alt={dt.name} />
+        <Para align='center' margin='10px 5px 5px 5px' font='15px' whiteSpace='nowrrap' overflow='ellipsis' >{dt.product}</Para>
+        <Para align='center' margin='5px' font='13px' color='#388e3c'>{dt.price}</Para>
+        <Para align='center' margin='5px' font='13px' color='gray'>{dt.des}</Para>
+        </div>
     ))}
     </div>
     </div>)
