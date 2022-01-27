@@ -73,8 +73,18 @@ function Electronics(){
             strike:'1,600',
             offer:'36%',
         },
+        {
+            img:'https://rukminim1.flixcart.com/image/612/612/kmgn0cw0/pendrive/pendrive/8/z/j/sdcz50-032g-sdcz50-032g-i35-sandisk-original-imagfc7rdywypccr.jpeg?q=70',
+            product:'SanDisk SDCZ50-064g-I35 /SDCZ50-064g-B35 64 GB Pen Drive',
+            spec:'Black, Red',
+            rating:'4.3',
+            sale:'546',
+            price:'520',
+            strike:'600',
+            offer:'30%',
+        },
     ]
-    return(<Div wrap='wrap'>
+    return(<Div wrap='wrap' margin='10px 0'>
     {data.map(dt=>(
         <Div direction='column' width='250px' margin='20px 40px' height='400px' >
         <Image height='200' width='200' fit='contain'  padding='20px' src={dt.img} alt={dt.product} />
