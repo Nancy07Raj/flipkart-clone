@@ -64,8 +64,8 @@ const MobileCard = ()=>{
     <Div margin='20px 10px' padding='10px' bBottom='0.5px solid #C0D8C0' width='98%'>
         <Image src={md.img} alt={md.name} height='330px' margin='10px 0 10px 50px' />
         <Div direction='column' margin='0 0 0 100px'>
-        <h3>{md.name}</h3>
-        <Div aItems='center' bgColor='green' color='white' margin='0 10px' padding='2px' bRadius='4px' >
+        <Para as='h3' margin='0 0 15px 20px'>{md.name}</Para>
+        <Div aItems='center' bgColor='green' color='white' margin='0 0 0 20px' padding='2px' bRadius='4px' >
         <Para as='h5' font='15px' weight='200'>{md.rating}</Para>
         <Para as='span' font='12px'><i class="fas fa-star"></i></Para>
         </Div>

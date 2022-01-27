@@ -15,7 +15,7 @@
   margin: 20px 40px;
   div {
     @include flex-row();
-    margin: 20px 10px;
+    margin: 0 10px;
     min-width: 150px;
     flex-direction: column;
     h4 {
@@ -45,5 +45,21 @@
   .mailus {
     border-left: 1px solid gray;
     padding-left: 20px;
+  }
+}
+.site {
+  @include flex-row();
+  margin: 10px 0;
+  border-top: 1px solid gray;
+  width: auto;
+  padding: 20px 10px;
+  div {
+    @include flex-row();
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 20px;
+    img {
+      margin-right: 10px;
+    }
   }
 }

@@ -51,7 +51,6 @@ const Catagories = ()=>{
         <Link to={'/'+ card.name} >
         <div className = 'catagoriesCard'>
             <Image height='70px' width='70px' fit='cover' src={card.img} alt={card.name} key={index} />
-            {/* <img src={card.img} alt='catagories' key={index} /> */}
             <Para as='h3' margin='5px 0' font='15px' weight='600'>{card.name}</Para>
         </div>
         </Link>
