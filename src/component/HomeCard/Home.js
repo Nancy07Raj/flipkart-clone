@@ -45,38 +45,38 @@ function Home(){
         <div className='links'>
         <div>
             <h4>HOME</h4>
-            <a href='#'>Contact Us</a>
-            <a href='#'>About Us</a>
-            <a href='#'>Careers</a>
-            <a href='#'>Flipkart Stories</a>
-            <a href='#'>Press</a>
-            <a href='#'>Flipkart Wholesale</a>
-            <a href='#'>Corporate Information</a>
+            <a href='/' >Contact Us</a>
+            <a href='/'>About Us</a>
+            <a href='/'>Careers</a>
+            <a href='/'>Flipkart Stories</a>
+            <a href='/'>Press</a>
+            <a href='/'>Flipkart Wholesale</a>
+            <a href='/'>Corporate Information</a>
         </div>
         <div>
             <h4>HELP</h4>
-            <a href='#'>Payments</a>
-            <a href='#'>Shipping</a>
-            <a href='#'>Cancellation & Returns</a>
-            <a href='#'>FAQ</a>
-            <a href='#'>Report Infringement</a>
+            <a href='/'>Payments</a>
+            <a href='/'>Shipping</a>
+            <a href='/'>Cancellation & Returns</a>
+            <a href='/'>FAQ</a>
+            <a href='/'>Report Infringement</a>
         </div>
         <div>
             <h4>POLICY</h4>
-            <a href='#'>Return Policy</a>
-            <a href='#'>Term Of Use</a>
-            <a href='#'>Security</a>
-            <a href='#'>Privacy</a>
-            <a href='#'>Sitemap</a>
-            <a href='#'>EPR Compliances</a>
+            <a href='/'>Return Policy</a>
+            <a href='/'>Term Of Use</a>
+            <a href='/'>Security</a>
+            <a href='/'>Privacy</a>
+            <a href='/'>Sitemap</a>
+            <a href='/'>EPR Compliances</a>
         </div>
         <div>
             <h4>SOCIAL</h4>
-            <a href='#'>Facebook</a>
-            <a href='#'>Twitter</a>
-            <a href='#'>Youtube</a>
-            <a href='#'>FAQ</a>
-            <a href='#'>Report Infringement</a>
+            <a href='/'>Facebook</a>
+            <a href='/'>Twitter</a>
+            <a href='/'>Youtube</a>
+            <a href='/'>FAQ</a>
+            <a href='/'>Report Infringement</a>
         </div>
         <div className='mailus'>
             <h4>Mail Us</h4>
@@ -123,7 +123,6 @@ function Home(){
         <div>
             <img src='https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/payment-method_69e7ec.svg' alt='visa' />
         </div>
-
         </div>
         </div>
     </>)
