@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Catagories from './catagories';
-import {MobileCard, MobileView, Fashion, Electronics, House, Appliances} from './catagoriesComponents';
+import {MobileCard, MobileView, Fashion, Electronics, House, Appliances, Furniture} from './catagoriesComponents';
 import Header from './Header'
 import Home from './HomeCard/Home.js'
 
@@ -19,6 +19,7 @@ function App() {
       <Route path='/Electronics' component={Electronics} />
       <Route path='/House' component={House} />
       <Route path='/Appliances' component={Appliances} />
+      <Route path='/Furniture' component={Furniture}/>
     </Switch>
     </Router>
   </div>)

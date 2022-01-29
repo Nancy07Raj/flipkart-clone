@@ -4,5 +4,6 @@ import Fashion from './catagories/Fashion';
 import Electronics from './catagories/Electronics'
 import House from './catagories/House'
 import Appliances from './catagories/Appliances';
+import Furniture from './catagories/Furniture'
 
-export {MobileView, MobileCard, Fashion, Electronics, House, Appliances}
+export {MobileView, MobileCard, Fashion, Electronics, House, Appliances, Furniture}

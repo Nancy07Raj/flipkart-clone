@@ -66,11 +66,11 @@ const Appliances = ()=>{
     return(<Div direction='column' jContent='center' margin='10px 20px'>
     {data.map(md =>(
     <Anchor textDecoration='none' color='black'><Link to='/MobileView'>
-    <Div margin='20px 10px' padding='10px' bBottom='0.5px solid #C0D8C0' width='98%'>
+    <Div margin='20px 10px' padding='10px' bBottom='0.5px solid #C0D8C0'>
         <Div aItems='center' width='300px'>
         <Image src={md.img} alt={md.name} height='200px' width='260px' fit='contain' />
         </Div>
-        <Div direction='column' margin='0 0 0 100px'>
+        <Div direction='column' margin='0 0 0 50px' width='500px'>
         <Para as='h3' margin='0 0 15px 20px'>{md.name}</Para>
         <Div aItems='center' bgColor='green' color='white' margin='0 0 0 20px' padding='2px' bRadius='4px' >
         <Para as='h5' font='15px' weight='200'>{md.rating}</Para>
@@ -85,7 +85,7 @@ const Appliances = ()=>{
             <Li LH='30px'>{md.spec[5]}</Li>
         </Ul>
         </Div>
-        <Div direction='column' margin='0 0 0 200px'>
+        <Div direction='column' margin='0 0 0 120px' width='200px'>
         <Div aItems='center'>
         <Para as='h2' font='25px' >₹{md.price}</Para>
         <Image alt='assurance' height='20px' width='80px' margin='0 20px' src='https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png' />
