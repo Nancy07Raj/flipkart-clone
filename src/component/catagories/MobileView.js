@@ -62,9 +62,7 @@ const MobileView = ()=>{
     </div>
     <span>up to ₹ 6,400 Off</span>
     </div>
-
     </div>
-
     </div>
     </div>)
 }

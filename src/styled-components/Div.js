@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import {space, color, layout, flexbox, border, shadow} from 'styled-system'
 
 const Div = styled.div`
 display: flex;
@@ -20,6 +21,6 @@ white-space: ${(props)=> props.whiteSpace};
 max-height: ${(props)=> props.maxH};
 &:hover{
     ${(props)=> props.hover}
-}
+ }
 `
 export default Div

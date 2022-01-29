@@ -8,9 +8,11 @@ const Image = styled.img.attrs(props=>({
     size: props.size
 }))
 `
+border: ${(props)=> props.border};
 object-fit: ${(props)=>props.fit};
 padding: ${(props)=> props.padding};
 margin: ${(props)=> props.margin};
+background-color: ${(props)=> props.bgColor};
 &:hover{
     ${(props)=> props.hover? props.hover : 'none'};
 }

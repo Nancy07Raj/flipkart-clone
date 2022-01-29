@@ -98,7 +98,7 @@ function Electronics(){
             <Para as='h4' color='gray' margin='0 5px'>({dt.sale})</Para>
             <Image height='20px' width='80px' src='https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png' alt='assure' />
         </Div>
-        <Div margin='5px' aItems='center' margin='10px 5px'>
+        <Div aItems='center' margin='10px 5px'>
             <Para as='h3' margin='0 10px 0 0'>₹{dt.price}</Para>
             <Para as='h3' color='gray' tDecoration='line-through'>₹{dt.strike}</Para>
             <Para as='h5' color='green' font='13px' margin='0 5px'>{dt.offer} Off</Para>

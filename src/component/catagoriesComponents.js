@@ -3,5 +3,6 @@ import MobileCard from './catagories/MobileCard'
 import Fashion from './catagories/Fashion';
 import Electronics from './catagories/Electronics'
 import House from './catagories/House'
+import Appliances from './catagories/Appliances';
 
-export {MobileView, MobileCard, Fashion, Electronics, House}
+export {MobileView, MobileCard, Fashion, Electronics, House, Appliances}
